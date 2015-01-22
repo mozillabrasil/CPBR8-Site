@@ -1,6 +1,6 @@
   	<!-- footer -->
   	<footer class="footer">
-  		<!-- social -->
+  		<!-- social
   		<div class="social">
   			<div class="container">
   				<div class="row">
@@ -31,76 +31,21 @@
 		  		</div>
 		  	</div>
   		</div>
-  		<!-- //social -->
+  		 //social -->
 
 			<!-- widget -->
   		<div class="widget padding-top-20 padding-bottom-20">
   			<div class="container">
   				<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-							<h3 class="title margin-bottom-20">Últimos Posts</h3>
+							<h3 class="title margin-bottom-20">MozBR no Facebook</h3>
 
 							<div class="recent-posts">
-								<div class="media">
-									<a class="media-left" href="#"><img src="http://placehold.it/80x80&text=Imagem" alt=""></a>
-									<div class="media-body">
-										<h4 class="media-heading"><a href="#">Futurecom 2014</a></h4>
-										<p><i class="fa fa-calendar"></i> 14/10/2014</p>
-									</div>
-								</div>
-
-								<div class="media">
-									<a class="media-left" href="#"><img src="http://placehold.it/80x80&text=Imagem" alt=""></a>
-									<div class="media-body">
-										<h4 class="media-heading"><a href="#">5ª Semana Acadêmico de Tecnologia em Sistemas para Internet</a></h4>
-										<p><i class="fa fa-calendar"></i> 06/10/2014</p>
-									</div>
-								</div>
-
-								<div class="media">
-									<a class="media-left" href="#"><img src="http://placehold.it/80x80&text=Imagem" alt=""></a>
-									<div class="media-body">
-										<h4 class="media-heading"><a href="#">Semana Acadêmica do Curso de Ciência da Computação - URI Erechim</a></h4>
-										<p><i class="fa fa-calendar"></i> 01/10/2014</p>
-									</div>
-								</div>
+								<div class="fb-like-box" data-href="https://www.facebook.com/mozillabrasil" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
 							</div>
 						</div>
 
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-							<h3 class="title margin-bottom-20">Eventos Realizados</h3>
-
-							<div class="recent-events">
-								<div class="media">
-									<a class="media-left" href="#"><img src="http://placehold.it/80x80&text=Imagem" alt=""></a>
-									<div class="media-body">
-										<h4 class="media-heading"><a href="#">Encontro da Comunidade Mozilla Brasil 2014</a></h4>
-										<p class="no-margin-bottom"><i class="fa fa-map-marker"></i> Ribeiro Preto - SP</p>
-										<p><i class="fa fa-calendar"></i> 13/12/2014</p>
-									</div>
-								</div>
-
-								<div class="media">
-									<a class="media-left" href="#"><img src="http://placehold.it/80x80&text=Imagem" alt=""></a>
-									<div class="media-body">
-										<h4 class="media-heading"><a href="#">Nome do Evento</a></h4>
-										<p class="no-margin-bottom"><i class="fa fa-map-marker"></i> Localidade</p>
-										<p><i class="fa fa-calendar"></i> Data da realização</p>
-									</div>
-								</div>
-
-								<div class="media">
-									<a class="media-left" href="#"><img src="http://placehold.it/80x80&text=Imagem" alt=""></a>
-									<div class="media-body">
-										<h4 class="media-heading"><a href="#">Nome do Evento</a></h4>
-										<p class="no-margin-bottom"><i class="fa fa-map-marker"></i> Localidade</p>
-										<p><i class="fa fa-calendar"></i> Data da realização</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 							<h3 class="title margin-bottom-20">Nossa Galeria</h3>
 							<div id="nanoGallery"></div>
 						</div>
@@ -113,21 +58,9 @@
   		<div class="copyleft">
   			<div class="container">
   				<div class="row">
-
-  					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-		  				<div class="btn-group dropup language">
-								<button type="button" class="btn btn-xs btn-grey dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Selecionar Idioma <span class="caret"></span></button>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Inglês</a></li>
-									<li><a href="#">Português</a></li>
-								</ul>
-							</div>
-		  			</div>
-
 		  			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-							<p class="no-margin-bottom"><small><i class="fa fa-heart-o"></i> We Are Mozillians <i class="fa fa-heart-o"></i> <br> Fazer o bem está em nosso código!</small></p>
+							<p class="no-margin-bottom"><small>MozBR na CPBR8 <br> Fazer o bem está em nosso código!</small></p>
 		  			</div>
-
 		  		</div>
 		  	</div>
   		</div>

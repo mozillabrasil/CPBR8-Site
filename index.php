@@ -9,27 +9,27 @@
 					<div class="carousel-caption jumbotron text-uppercase">
 						<h1 class="title">Experimente o melhor Firefox de todos</h1>
 						<p class="lead">Conheça tudo sobre o navegador gratuito que é comprometido com você, sua privacidade e a Web Aberta.</p>
-						<p class="text-uppercase"><a class="btn btn-orange btn-lg">Faça o download</a></p>
+						<p class="text-uppercase"><a href="https://www.mozilla.org/pt-BR/firefox/new/" target="_blank" class="btn btn-orange btn-lg">Faça o download</a></p>
 					</div>
 				</article>
 
 				<article class="item">
-					<img src="assets/images/intro/me_and_dino.jpg">
+					<img src="assets/images/intro/webmaker.jpg">
 					<div class="overlay"></div>
 					<div class="carousel-caption jumbotron text-uppercase">
 						<h1 class="title">Nós ensinamos Web</h1>
 						<p class="lead">Vamos explorar, testar e inventar juntos para construir uma Web aberta e feita por todos nós.</p>
-						<p class="text-uppercase"><a class="btn btn-orange btn-lg">Quero saber mais</a></p>
+						<p class="text-uppercase"><a href="oficinas.php" class="btn btn-orange btn-lg">Quero saber mais</a></p>
 					</div>
 				</article>
 
 				<article class="item">
-					<img src="assets/images/intro/dino.jpg">
+					<img src="assets/images/intro/comunity.jpg">
 					<div class="overlay"></div>
 					<div class="carousel-caption jumbotron text-uppercase">
 						<h1 class="title">Estamos construindo uma Internet melhor!</h1>
 						<p class="lead">Nossa missão é promover abertura, inovação e oportunidades na Web.</p>
-						<p class="text-uppercase"><a class="btn btn-orange btn-lg">Quero saber mais</a></p>
+						<p class="text-uppercase"><a href="comunidade.php" class="btn btn-orange btn-lg">Quero saber mais</a></p>
 					</div>
 				</article>
 			</div>
@@ -85,7 +85,7 @@
 		</section>
 		<!-- //mozilla-products -->
 
-		<!-- wam-events -->
+		<!-- wam-events
 		<section class="wam-events padding-top-bottom-120">
 			<div class="container">
 				<div class="row">
@@ -103,7 +103,7 @@
 		</section>
 		<!-- //wam-events -->
 
-		<!-- post -->
+		<!-- post
 		<section class="wam-posts padding-top-bottom-120">
 			<div class="container">
 				<div class="row">

@@ -15,8 +15,8 @@ jQuery(document).ready(function($) {
 		thumbnailLazyLoad: true,
 
 		theme: 'default',
-		paginationMaxLinesPerPage: 3,
-		maxWidth: 360,
+		paginationMaxLinesPerPage: 2,
+		maxWidth: 720,
 
 		i18n: {
 			paginationPrevious: 'Anterior', paginationPrevious_US: 'Previous',

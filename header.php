@@ -11,7 +11,7 @@
     <!-- Favicons -->
 
 		<!-- Title -->
-    <title>WAM</title>
+    <title>Mozilla Brasil</title>
 
 		<!-- Fonts -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -30,6 +30,14 @@
     <![endif]-->
   </head>
   <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=435972309796449&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   	<!-- navbar -->
   	<div class="navbar-wrapper">
   		<div class="container">
@@ -42,15 +50,15 @@
   							<span class="icon-bar"></span>
   							<span class="icon-bar"></span>
   						</button>
-  						<a class="navbar-brand" href="index.php">WAM</a>
+  						<a class="navbar-brand" href="index.php">MozBR na #CPBR8</a>
   					</div>
   					<div class="navbar-collapse collapse">
   						<ul class="nav navbar-nav navbar-right text-uppercase">
   							<li class="active"><a href="index.php">Home</a></li>
-  							<li><a href="apps.php">APP's</a></li>
-  							<li><a href="#">Eventos</a></li>
-  							<li><a href="#">Blog</a></li>
-  							<li><a href="participe.php">Participe</a></li>
+  							<li><a href="comunidade.php">Comunidade</a></li>
+                <li><a href="nas-trilhas.php">Nas Trilhas</a></li>
+                <li><a href="oficinas.php">Oficinas</a></li>
+  							<li><a href="hackathon.php">Hackathon</a></li>
   						</ul>
   					</div>
   				</div>
