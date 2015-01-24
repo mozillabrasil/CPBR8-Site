@@ -46,7 +46,7 @@
 						</div>
 
 						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-							<h3 class="title margin-bottom-20">Nossa Galeria</h3>
+							<h3 class="title margin-bottom-20">MozBR em Fotos</h3>
 							<div id="nanoGallery"></div>
 						</div>
   				</div>

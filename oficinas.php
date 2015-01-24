@@ -18,9 +18,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<h2 class="title">Oficinas</h2>
 
-						<p>Nessas oficinas self service vamos botar a mão nas ferramentas do Webmaker e conhecer um pouco mais sobre o projeto</p>
+						<p>Nessas oficinas self service vamos botar a mão na massa e ajudar a você a se tornar um colaborador da Mozilla.</p>
 
 						<h3>WebMaker</h3>
 						<ul class="fa-ul">
@@ -42,6 +41,14 @@
 						<ul class="fa-ul">
 							<li class="lead no-margin-bottom"><i class="fa-li fa fa-caret-right"></i> Suporte aos participantes da Hackathon</li>
 							<li class="lead no-margin-bottom"><i class="fa-li fa fa-caret-right"></i> Criação de apps de utilidade pública</li>
+						</ul>
+
+						<h3>Infra</h3>
+						<ul class="fa-ul">
+							<li class="lead no-margin-bottom"><i class="fa-li fa fa-caret-right"></i> The vengeance of XMPP: O que as forças inimigas tem de melhor?</li>
+							<li class="lead no-margin-bottom"><i class="fa-li fa fa-caret-right"></i> Killers: Quais serviços devemos matar? Quem devemos chamar?</li>
+							<li class="lead no-margin-bottom"><i class="fa-li fa fa-caret-right"></i> Criar/Modificar páginas no Site da comunidade</li>
+							<li class="lead no-margin-bottom"><i class="fa-li fa fa-caret-right"></i> O que o GNU Social precisa?</li>
 						</ul>
 					</div>
 				</div>

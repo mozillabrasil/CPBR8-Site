@@ -18,7 +18,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<h2 class="title">Participe</h2>
+
 						<p>Você pode construir uma web melhor contribuindo com a Mozilla. Não é necessário ser um guru do C++ (e nem saber o que isso significa!) ou gastar um montão de tempo!</p>
 						<p>Dê uma olhada nas maneiras de ajudar listadas abaixo e fique a vontade para nos perguntar o que quiser!</p>
 
