@@ -50,15 +50,15 @@
   							<span class="icon-bar"></span>
   							<span class="icon-bar"></span>
   						</button>
-  						<a class="navbar-brand" href="index.php">MozBR na CPBR8</a>
+  						<a class="navbar-brand" href="index">MozBR na CPBR8</a>
   					</div>
   					<div class="navbar-collapse collapse">
   						<ul class="nav navbar-nav navbar-right text-uppercase">
-  							<li class="active"><a href="index.php">Home</a></li>
-  							<li><a href="comunidade.php">Comunidade</a></li>
-                <li><a href="nas-trilhas.php">Nas Trilhas</a></li>
-                <li><a href="oficinas.php">Oficinas</a></li>
-  							<li><a href="hackathon.php">Hackathon</a></li>
+  							<li class="active"><a href="index">Home</a></li>
+  							<li><a href="comunidade">Comunidade</a></li>
+                <li><a href="nas-trilhas">Nas Trilhas</a></li>
+                <li><a href="oficinas">Oficinas</a></li>
+  							<li><a href="hackathon">Hackathon</a></li>
   						</ul>
   					</div>
   				</div>

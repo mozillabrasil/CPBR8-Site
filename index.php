@@ -29,7 +29,7 @@
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">Nós ensinamos Web</h1>
 				<p class="lead">Vamos explorar, testar e inventar juntos para construir uma Web aberta e feita por todos nós.</p>
-				<p class="text-uppercase"><a href="oficinas.php" class="btn btn-orange btn-lg">Quero saber mais</a></p>
+				<p class="text-uppercase"><a href="oficinas" class="btn btn-orange btn-lg">Quero saber mais</a></p>
 			</div>
 		</article>
 
@@ -39,7 +39,7 @@
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">Estamos construindo uma Internet melhor!</h1>
 				<p class="lead">Nossa missão é promover abertura, inovação e oportunidades na Web.</p>
-				<p class="text-uppercase"><a href="comunidade.php" class="btn btn-orange btn-lg">Quero saber mais</a></p>
+				<p class="text-uppercase"><a href="comunidade" class="btn btn-orange btn-lg">Quero saber mais</a></p>
 			</div>
 		</article>
 	</div>
