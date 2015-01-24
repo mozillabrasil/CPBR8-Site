@@ -1,3 +1,16 @@
+<?php
+
+  function active_class( $page ){
+
+    $path = array_pop(explode("/", $_SERVER['REQUEST_URI']));
+
+    if ($page == $path) {
+      echo ' class="active"';
+    }
+
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -54,11 +67,11 @@
   					</div>
   					<div class="navbar-collapse collapse">
   						<ul class="nav navbar-nav navbar-right text-uppercase">
-  							<li class="active"><a href="index">Home</a></li>
-  							<li><a href="comunidade">Comunidade</a></li>
-                <li><a href="nas-trilhas">Nas Trilhas</a></li>
-                <li><a href="oficinas">Oficinas</a></li>
-  							<li><a href="hackathon">Hackathon</a></li>
+  							<li<?php active_class( 'index' ); ?>><a href="index">Home</a></li>
+  							<li<?php active_class( 'comunidade' ); ?>><a href="comunidade">Comunidade</a></li>
+                <li<?php active_class( 'nas-trilhas' ); ?>><a href="nas-trilhas">Nas Trilhas</a></li>
+                <li<?php active_class( 'oficinas' ); ?>><a href="oficinas">Oficinas</a></li>
+  							<li<?php active_class( 'hackathon' ); ?>><a href="hackathon">Hackathon</a></li>
   						</ul>
   					</div>
   				</div>
