@@ -19,13 +19,13 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-						<h3>Women & Mozilla - Conheça o WoMoz e saiba como envolver-se</h3>
+						<!--<h3>Women & Mozilla - Conheça o WoMoz e saiba como envolver-se</h3>
 						<p><b>Autora: </b>Melissa Devens</p>
 						<p>Women & Mozilla ("WoMoz") é uma comunidade composta de membros de diversos projetos de software livre que dedicam-se principalmente a aumentar o envolvimento e a visibilidade de mulheres nesses projetos, em especial na Mozilla, e em aumentar o número de contribuidoras.</p>
 						<p>Tecnologia deve ser aberta, livre e acessível da mesma forma para homens e mulheres. O projeto é um exemplo de como promover e dar visibilidade as minorias.</p>
 						<p>Qualquer pessoa pode participar do WoMoz, não importa o gênero, orientação sexual, trabalho, etc. Nós acreditamos que o software livre precisa de mais mulheres! :) Contribua conosco! :)</p>
-
-					<hr/>
+						
+					<hr/> -->
 					<h2 class="title">Na trilha de comunidades</h2>
 
 					<h3>Desenvolvedores Firefox - O encontro</h3>
