@@ -1,4 +1,9 @@
-<?php require_once 'header.php'; ?>
+<?php
+
+	require_once 'header.php';
+	require_once 'functions.php';
+
+?>
 
 <!-- intro -->
 <div id="intro" class="carousel slide site-head" data-ride="carousel" data-interval="false">
@@ -66,10 +71,90 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h2 class="title">Atividades do dia</h2>
 
-				<h3>Programando com o Apache Cordova para diversas plataformas</h3>
-				<p><b>Autor:</b> Guilherme Berghauser</p>
-				<p><b>Quando:</b> 04/02 | 01h - 02h</p>
-				<p><b>Onde:</b> Palco Urano</p>
+				<?php
+
+					$zero = 0;
+
+					function time_sort($a,$b){
+
+					    if($a['time'] > $b['time'])
+
+					        return 1;
+
+					    if($a['time'] < $b['time'])
+
+					        return -1;
+
+					    if($a['time'] == $b['time'])
+
+					        return 0;
+					}
+
+					uasort($cronograma,'time_sort');
+
+
+					foreach ($cronograma as $atividade) {
+						
+						if ($atividade['date'] == $hoje) {
+
+							$actstart = strtotime($atividade['date']."-02-2015 ".$atividade['time'].":00");
+							$actend = strtotime($atividade['date']."-02-2015 ".$atividade['end-time'].":00");
+							$nowtmtmp = strtotime("now");
+
+							if ($zero % 2 == 0) {
+  								print '<div class="row todayact">';
+							}
+
+							echo '<div class="col-sm-6"><div class="page-header" style="padding-bottom: 0;border-bottom: 0;"><h3 style="line-height:1.5em;"><span class="label label-primary">'.$atividade['time'].'</span> ';
+
+							if (($nowtmtmp >= $actstart) && ($nowtmtmp < $actend)){
+
+								// Está acontecendo agora esta atividade
+								echo '<span class="label label-danger"><span class="glyphicon glyphicon-time"></span> Agora</span> ';
+
+							}
+
+							echo $atividade['title'].' <small>por ';
+
+							if (gettype($atividade['authors']) == "array"){
+
+								// Mais de um autor
+								$autores = [];
+
+								foreach ($atividade['authors'] as $author) {
+									
+									array_push($autores, $authors[$author]['name']);
+
+									$autor = implode(" e ", $autores);
+
+								}
+
+								echo $autor;
+
+							} else {
+
+								// Único autor
+								echo $authors[$atividade['authors']]['name'];
+
+							}
+
+							echo '</small></h3></div>';
+							
+							echo '<p><b>Onde:</b> '.$atividade['place'].'</p>';
+							echo '<hr class="separator"></div>';
+
+							if ($zero % 2 != 0) {
+  								print '</div>';
+							}
+
+							$zero++;
+
+						}
+
+					}
+
+				?>
+
 			</div>
 		</div>
 	</div>
