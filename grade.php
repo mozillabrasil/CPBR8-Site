@@ -136,7 +136,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="author'.$author.'">Sobre <b>'.$data['name'].'</b></h4>
+        <h4 class="modal-title" id="titleauthor'.$author.'">Sobre <b>'.$data['name'].'</b></h4>
       </div>
       <div class="modal-body" style="font-weight: 200;line-height: 2em;font-size:1.1em;">';
 
@@ -154,7 +154,7 @@
 
 	      	foreach ($data['links'] as $fa => $link) {
 	      		
-	      		echo '<a href="'.$link.'"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-'.$fa.' fa-stack-1x fa-inverse"></i></span>';
+	      		echo '<a href="'.$link.'"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-'.$fa.' fa-stack-1x fa-inverse"></i></span></a>';
 
 	      	}
 

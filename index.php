@@ -9,7 +9,7 @@
 <div id="intro" class="carousel slide site-head" data-ride="carousel" data-interval="false">
 	<div class="carousel-inner">
 		<article class="item active">
-			<img src="assets/images/intro/mozbr.jpg">
+			<img src="assets/images/intro/mozbr.jpg" alt="Mozilla na CPBR">
 			<div class="overlay"></div>
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">MozBR na CPBR8</h1>
@@ -19,7 +19,7 @@
 		</article>
 
 		<article class="item">
-			<img src="assets/images/intro/firefox.jpg">
+			<img src="assets/images/intro/firefox.jpg" alt="Experimente o melhor Firefox de todos">
 			<div class="overlay"></div>
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">Experimente o melhor Firefox de todos</h1>
@@ -29,7 +29,7 @@
 		</article>
 
 		<article class="item">
-			<img src="assets/images/intro/webmaker.jpg">
+			<img src="assets/images/intro/webmaker.jpg" alt="Nós ensinamos Web">
 			<div class="overlay"></div>
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">Nós ensinamos Web</h1>
@@ -39,7 +39,7 @@
 		</article>
 
 		<article class="item">
-			<img src="assets/images/intro/comunity.jpg">
+			<img src="assets/images/intro/comunity.jpg" alt="Estamos construindo uma Internet melhor!">
 			<div class="overlay"></div>
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">Estamos construindo uma Internet melhor!</h1>
@@ -154,7 +154,7 @@
 					}
 
 				?>
-
+			</div>
 			</div>
 		</div>
 	</div>
