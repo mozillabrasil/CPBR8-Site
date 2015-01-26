@@ -83,6 +83,19 @@
 
 
 
+	// N O M E   D O S   T I P O S
+
+	$types = [
+
+		1 => 'Oficina',
+		2 => 'Palestra',
+		3 => 'Hackaton',
+		4 => 'Atividade na nossa bancada'
+
+	];
+
+
+
 	// C R O N O G R A M A
 	//
 	// title (string)
@@ -159,13 +172,5 @@
 		$hoje = 8;
 
 	}
-
-	function to_timestamp(){
-
-
-
-	}
-
-
 
 ?>

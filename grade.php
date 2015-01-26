@@ -75,9 +75,9 @@
 						           			}
 
 							           		echo '<li>
-							                      <i class="fa fa-'.$icons[$atividade['type']].'"></i>
+							                      <i data-toggle="tooltip" data-placement="right" title="'.$types[$atividade['type']].'" class="fa fa-'.$icons[$atividade['type']].'"></i>
 							                      <div class="timeline-item">
-							                      <span class="time"><i class="fa fa-clock-o"></i> 0'.$dia.'/Fev - '.$atividade['time'].'</span>
+							                      <span class="time"><i class="fa fa-clock-o"></i> 0'.$dia.'/Fev, '.$atividade['time'].' - '.$atividade['end-time'].'</span>
 							                      <h3 class="timeline-header"><span style="color:#EF5438;">'.$atividade['title'].'</span></h3>
 							                      <div class="timeline-body" style="font-weight: 200;font-size: 1.2em;">'.$atividade['description'].'</div>
 							                      <div class="timeline-footer">';
@@ -171,5 +171,7 @@
 	}
 
 ?>
+
+<?php $popover = true; ?>
 
 <?php require_once 'footer.php'; ?>
