@@ -65,7 +65,8 @@
   							<li<?php active_class( 'comunidade' ); ?>><a href="comunidade">Comunidade</a></li>
                 <li<?php active_class( 'nas-trilhas' ); ?>><a href="nas-trilhas">Nas Trilhas</a></li>
                 <li<?php active_class( 'oficinas' ); ?>><a href="oficinas">Oficinas</a></li>
-  							<li<?php active_class( 'hackathon' ); ?>><a href="hackathon">Hackathon</a></li>
+                <li<?php active_class( 'hackathon' ); ?>><a href="hackathon">Hackathon</a></li>
+  							<li<?php active_class( 'grade' ); ?>><a href="grade">Grade</a></li>
   						</ul>
   					</div>
   				</div>
