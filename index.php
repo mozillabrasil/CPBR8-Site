@@ -102,7 +102,7 @@
 							$nowtmtmp = strtotime("now");
 
 							if ($zero % 2 == 0) {
-  								print '<div class="row todayact">';
+  								echo '<div class="row todayact">';
 							}
 
 							echo '<div class="col-sm-6"><div class="page-header" style="padding-bottom: 0;border-bottom: 0;"><h3 style="line-height:1.5em;"><span class="label label-primary">'.$atividade['time'].'</span> ';
@@ -123,7 +123,7 @@
 
 								foreach ($atividade['authors'] as $author) {
 									
-									array_push($autores, $authors[$author]['name']);
+									array_push($autores, '<a href="#" data-toggle="modal" data-target="#author'.$author.'">'.$authors[$author]['name'].'</a>');
 
 									$autor = implode(" e ", $autores);
 
@@ -141,10 +141,10 @@
 							echo '</small></h3></div>';
 							
 							echo '<p><b>Onde:</b> '.$atividade['place'].'</p>';
-							echo '<hr class="separator"></div>';
+							echo '</div>';
 
 							if ($zero % 2 != 0) {
-  								print '</div>';
+  								echo '</div><hr class="separator">';
 							}
 
 							$zero++;
@@ -159,5 +159,7 @@
 		</div>
 	</div>
 </section>
+
+
 
 <?php require_once 'footer.php'; ?>
