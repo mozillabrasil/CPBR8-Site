@@ -24,4 +24,14 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+    $("body").niceScroll({
+        cursorcolor:"rgba(0,0,0,0.8)",
+        cursorwidth: "7px",
+        cursorborder: "1px solid #000",
+        cursorborderradius: "0",
+        autohidemode: false,
+        scrollspeed: 50,
+       	horizrailenabled: false
+  	});
+
 });
