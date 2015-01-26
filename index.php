@@ -80,7 +80,7 @@
 				para isso preparamos diversas ações superdivertidas em nossos perfis nas 
 				redes sociais. Não perca nenhum passo da Fox na Campus, siga <a href="http://twitter.com/mozillabrasil">nosso 
 				Twitter</a> e curta nossa <a href="http://fb.com/mozillabrasil">página no Facebook</a>. 
-				Divirta-se com a gente e não fique de fora dessa festa! #mozillanacpbr8</p>
+				Divirta-se com a gente e não fique de fora dessa festa! <b>#mozillanacpbr8</b></p>
 
 			</div>
 
