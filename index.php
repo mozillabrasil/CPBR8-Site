@@ -179,6 +179,51 @@
 	</div>
 </section>
 
+<?php
+
+	foreach ($authors as $author => $data) {
+		
+		echo '<div class="modal fade" id="author'.$author.'" tabindex="-1" role="dialog" aria-labelledby="author'.$author.'" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="titleauthor'.$author.'">Sobre <b>'.$data['name'].'</b></h4>
+      </div>
+      <div class="modal-body" style="font-weight: 200;line-height: 2em;font-size:1.1em;">';
+
+      	if(isset($data['photo'])){
+      		echo '<div style="width:100%;display:block;text-align:center;"><img style="width:200px;height:auto;max-width:100%;" src="assets/images/photos/'.$data['photo'].'" alt="'.$data['name'].'" class="img-circle"></div><hr class="divider">';
+      	}
+
+      	if(isset($data['biography'])){
+      		echo $data['biography'];
+      	}
+        
+      	echo '<div class="modallinks" style="text-align:center;padding-top:10px;">';
+
+      	if(isset($data['links'])){
+
+	      	foreach ($data['links'] as $fa => $link) {
+	      		
+	      		echo '<a href="'.$link.'"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-'.$fa.' fa-stack-1x fa-inverse"></i></span></a>';
+
+	      	}
+
+      	}
+
+      	echo '</div></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>';
+
+	}
+
+?>
+
 <?php $socialheight = true; ?>
 
 <?php require_once 'footer.php'; ?>
