@@ -5,42 +5,6 @@
 
 ?>
 
-<style>
-.rsocial img{
-    max-width: 100%;
-    width: 100%;
-}
-.rsocial .photo{
-    max-height:350px;
-    overflow: hidden;
-}
-.rsocial .content {
-    background:#eee;
-}
-.navbar .twitter, .navbar .facebook, .navbar .plus {
-    border-radius: 50px;
-    margin-left:5px;
-    font-size:1.6em;
-    color:#fff !important;
-    transition:0.5s;
-}
-.navbar .twitter {
-    padding: 6px 6.5px 6px 6.5px;
-    background:#52A6E6;
-    border:0;
-}
-.navbar .facebook {
-    padding: 6px 10px 6px 10px;
-    background: #415E9B;
-    border:0;
-}
-.navbar .plus {
-    padding:6px 6.5px 6px 6.5px;
-    background:#D4412C;
-    border:0;
-}
-</style>
-
 <!-- intro -->
 <div id="intro" class="carousel slide site-head" data-ride="carousel" data-interval="false">
 	<div class="carousel-inner">
