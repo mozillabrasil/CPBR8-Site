@@ -67,6 +67,9 @@
                 <li<?php active_class( 'oficinas' ); ?>><a href="oficinas">Oficinas</a></li>
                 <li<?php active_class( 'hackathon' ); ?>><a href="hackathon">Hackathon</a></li>
   							<li<?php active_class( 'grade' ); ?>><a href="grade">Grade</a></li>
+                <li><a href="https://facebook.com/mozillabrasil" class="btn btn-default navbar-btn facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/mozillabrasil" class="btn btn-default navbar-btn twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/116991215966661461225" class="btn btn-default navbar-btn plus"><i class="fa fa-google-plus"></i></a></li>
   						</ul>
   					</div>
   				</div>

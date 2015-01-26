@@ -78,6 +78,19 @@
 
     <?php } ?>
 
+    <?php if(isset($socialheight)){ ?>
+
+      <script>$( document ).ready(function() {
+        if(($('body').width() >= 768) && ($('.rsocial .content').height() <= $('.rsocial .photo').height())){
+          $('.rsocial .content').height( $('.rsocial .photo').height() );
+        } else if ($('.rsocial .content').height() > $('.rsocial .photo').height()){
+          diference = ($('.rsocial .content').height() - $('.rsocial .photo').height()) / 2;
+          $('.rsocial .photo').css({"margin-top": diference})
+        }
+      });</script>
+
+    <?php } ?>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.2.3/jquery.nanogallery.min.js"></script>
 
     <script src="assets/js/main.js"></script>
