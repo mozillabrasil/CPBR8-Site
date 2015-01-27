@@ -66,8 +66,6 @@
   						<ul class="nav navbar-nav navbar-right text-uppercase">
   							<li<?php active_class( 'index' ); ?>><a href="index">Home</a></li>
   							<li<?php active_class( 'comunidade' ); ?>><a href="comunidade">Comunidade</a></li>
-                <li<?php active_class( 'nas-trilhas' ); ?>><a href="nas-trilhas">Nas Trilhas</a></li>
-                <li<?php active_class( 'oficinas' ); ?>><a href="oficinas">Oficinas</a></li>
                 <li<?php active_class( 'hackathon' ); ?>><a href="hackathon">Hackathon</a></li>
   							<li<?php active_class( 'grade' ); ?>><a href="grade">Grade</a></li>
                 <li><a href="https://facebook.com/mozillabrasil" class="btn btn-default navbar-btn facebook"><i class="fa fa-facebook"></i></a></li>
