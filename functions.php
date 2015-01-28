@@ -84,7 +84,7 @@
 
 		3  => ['name'		=> 'Guilherme Berghauser',
 			   'biography'	=> 'Geógrafo formado pela UNIOESTE - Universidade Estadual Do Oeste do Paraná, estudante de Sistema de Informação pela UTFPR – Universidade Tecnológica Federal do Paraná, voluntário da Mozilla (Mozillian), participa do projeto Firefox Student Ambassador, líder do Club Firefox de Pato Branco – PR e membro do grupo de usuários de Software Livre PatoLivre, Sócio-Fundador da QiLeverage empresa especializada no desenvolvimento de softwares educacionais, apaixonado por tecnologia, educação e software livre, foi professor durante sete anos e nos últimos quatro anos se dedica ao desenvolvimento web e mobile.',
-			   'photo'		=> 'guilherme.jpg',
+			   'photo'		=> 'Guilherme.jpg',
 			   'links'		=> [
 
 			   		'envelope' 	=> 'mailto:tortoyoyo@gmail.com',
@@ -94,6 +94,12 @@
 			   		'facebook'	=> 'http://www.facebook.com/tortoyo'
 
 			   ]],
+
+		4  => ['name'		=> 'André Garzia',
+			   'biography'	=> ''],
+
+		5  => ['name'		=> 'Qaiq Alves',
+			   'biography'	=> ''],
 
 	];
 
@@ -150,31 +156,58 @@
 
 	$cronograma = [
 
-		/* ["title" 		=> "Envolva-se: como você pode para contribuir com a comunidade Mozilla Brasil",
+		/* ["title" 		=> "",
+		 "description"	=> "",
+		 "authors"		=> ,
+		 "date"			=> ,
+		 "time"			=> "",
+		 "end-time"		=> "",
+		 "place"		=> "",
+		 "type"			=> ], */
+
+		["title" 		=> "Programando com o Apache Cordova para diversas plataformas",
+		 "description"	=> "Um dos maiores problemas atuais, enfrentados pelos desenvolvedores móveis, é a grande quantidade de linguagens de programação para se desenvolver uma aplicação multiplataforma, problema esse que encarece qualquer projeto. O Apache Cordova é um framework livre multiplataforma que permite desenvolver aplicativos para os principais sistemas a partir do mesmo código, utilizando HTML5, CSS3 e JavaScript. Assim, esta palestra tem como objetivo demostrar o que pode ser feito com o Cordova, ensinar como iniciar o desenvolvimento de aplicativos móveis e fazer o deploy em celulares, utilizando exemplos práticos no sistema operacional Firefox OS.",
+		 "authors"		=> 3,
+		 "date"			=> 5,
+		 "time"			=> "1:00",
+		 "end-time"		=> "2:00",
+		 "place"		=> "Palco Urano",
+		 "type"			=> 2],
+
+		["title" 		=> "Desenvolvedores Firefox OS: O encontro",
+		 "description"	=> "Nesta palestra apresentaremos uma visão geral para desenvolvedores da plataforma Firefox OS, começando pelos motivos que fundamentaram a criação do sistema e seu potencial transformador para países emergentes. Em seguida, aprofundaremos a conversa ao mostrar como criar aplicativos e monetizá-los. Mostraremos também detalhes técnicos como chamadas das WebAPIs, workflow de debug das apps e o processo completo de criação e distribuição de um app.",
+		 "authors"		=> 5,
+		 "date"			=> 4,
+		 "time"			=> "23:00",
+		 "end-time"		=> "00:00",
+		 "place"		=> "Palco Júpiter",
+		 "type"			=> 2], 
+
+		["title" 		=> "Firefox OS First: Desenvolvendo para Firefox OS e portando para outras plataformas",
+		 "description"	=> "Nessa palestra mostraremos um workflow de desenvolvimento que permite a construção de apps para Firefox OS e entrega para diversos sistemas como Firefox OS, Android e iOS. A ideia é mostrar como o desenvolvimento de Open Web Apps reduz o custo de tempo e dinheiro na produção de um app e maximiza sua capacidade de entrega. Além disso mostraremos a importância da defesa da web como plataforma e o que isso significa para o nosso futuro enquanto desenvolvedores.",
+		 "authors"		=> 4,
+		 "date"			=> 5,
+		 "time"			=> "16:30",
+		 "end-time"		=> "17:30",
+		 "place"		=> "Palco Júpiter",
+		 "type"			=> 2],
+
+		["title" 		=> "Envolva-se: como você pode contribuir para a comunidade Mozilla Brasil.",
 		 "description"	=> "Esta palestra tem como objetivo principal mostrar às pessoas que qualquer um pode colaborar com uma comunidade de software livre. Você não precisa saber escrever código para contribuir com a Mozilla, basta gostar e querer defender a web.",
 		 "authors"		=> 2,
-		 "date"			=> 3,
-		 "time"			=> "19:00",
+		 "date"			=> 6,
+		 "time"			=> "0:00",
 		 "end-time"		=> "1:00",
-		 "place"		=> "Nossa Bancada",
-		 "type"			=> 4],
+		 "place"		=> "Palco Saturno",
+		 "type"			=> 2],
 
-		["title" 		=> "The vengeance of XMPP: O que as forças inimigas tem de melhor?2",
-		 "description"	=> "Atualmente muitas pessoas utilizam o Telegram e o WhatsApp no seu dia-a-dia, porém pelo simples fato de eles serem plataformas fechadas e centralizadas não sabemos o que é feito com os nossos dados que passam através de tais serviços. Como alternativa segura e aberta, nossa comunidade está utilizando o protocolo XMPP com o seu próprio servidor, mas, para tal ferramenta ser utilizada precisamos que seja tão completa e fácil quanto suas alternativas do lado negro da força. Por isso precisamos de sua ajuda! Junte-se a nós, vamos instalar, configurar, revolver bugs e instalar novas features para tornar o nosso servidor XMPP tão bom quanto o Telegrão e o Zap Zap.",
-		 "authors"		=> [0],
-		 "date"			=> 3,
-		 "time"			=> "19:00",
-		 "end-time"		=> "1:00",
-		 "place"		=> "Nossa Bancada",
-		 "type"			=> 3], */
-
-		["title" 		=> "Killers: Quais serviços devemos matar? Quem devemos chamar?",
-		 "description"	=> "Nossa comunidade preza por sempre utilizar Software Livre. Nessa busca constante nosso servidor está rodando diversos serviços, muitos não estão sendo utilizados. Faremos uma limpeza no nosso servidor e precisamos da sua ajuda para decidirmos quais serviços podemos remover e quais alternativas abertas podemos utilizar como alternativa para os Softwares Proprietários atualmente utilizados pela comunidade.",
+		["title" 		=> "Women & Mozilla - Conheça o WoMoz e saiba como envolver-se #CPBR8",
+		 "description"	=> "Women & Mozilla (WoMoz) é uma comunidade composta de membros de diversos projetos de software livre que dedicam-se principalmente a aumentar o envolvimento e a visibilidade de mulheres nesses projetos, em especial na Mozilla, e em aumentar o número de contribuidoras. Tecnologia deve ser aberta, livre e acessível da mesma forma para homens e mulheres. O projeto é um exemplo de como promover e dar visibilidade as minorias. Qualquer pessoa pode participar do WoMoz, não importa o gênero, orientação sexual, trabalho, etc. Nós acreditamos que o software livre precisa de mais mulheres! :) Contribua conosco! :)",
 		 "authors"		=> 1,
-		 "date"			=> 3,
-		 "time"			=> "17:00",
-		 "end-time"		=> "17:30",
-		 "place"		=> "Palco 666",
+		 "date"			=> 6,
+		 "time"			=> "17:30",
+		 "end-time"		=> "18:30",
+		 "place"		=> "Palco Urano",
 		 "type"			=> 2]
 
 	];
