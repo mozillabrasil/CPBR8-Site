@@ -34,7 +34,7 @@
 			<div class="carousel-caption jumbotron text-uppercase">
 				<h1 class="title">Nós ensinamos Web</h1>
 				<p class="lead">Vamos explorar, testar e inventar juntos para construir uma Web aberta e feita por todos nós.</p>
-				<p class="text-uppercase"><a href="oficinas" class="btn btn-orange btn-lg">Quero saber mais</a></p>
+				<p class="text-uppercase"><a href="grade" class="btn btn-orange btn-lg">Quero saber mais</a></p>
 			</div>
 		</article>
 
