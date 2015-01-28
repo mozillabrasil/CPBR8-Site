@@ -12,7 +12,7 @@
 			<img src="assets/images/intro/mozbr.jpg" alt="Mozilla na CPBR">
 			<div class="overlay"></div>
 			<div class="carousel-caption jumbotron text-uppercase">
-				<h1 class="title">MozBR na CPBR8</h1>
+				<h1 class="title">Mozilla na CPBR8</h1>
 				<p class="lead">Juntos por uma web livre.</p>
 
 			</div>

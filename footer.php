@@ -38,7 +38,7 @@
   			<div class="container">
   				<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-							<h3 class="title margin-bottom-20">MozBR no Facebook</h3>
+							<h3 class="title margin-bottom-20">Mozilla Brasil no Facebook</h3>
 
 							<div class="recent-posts">
                   <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmozillabrasil&amp;width=500&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=435972309796449" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:258px;" allowTransparency="true"></iframe>
@@ -46,7 +46,7 @@
 						</div>
 
 						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-							<h3 class="title margin-bottom-20">MozBR em Fotos</h3>
+							<h3 class="title margin-bottom-20">Mozilla Brasil em Fotos</h3>
 							<div id="nanoGallery"></div>
 						</div>
   				</div>
@@ -59,7 +59,7 @@
   			<div class="container">
   				<div class="row">
 		  			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-							<p class="no-margin-bottom"><small>MozBR na CPBR8 <br> Fazer o bem está em nosso código!</small></p>
+							<p class="no-margin-bottom"><small>Comunidade Mozilla na CPBR8 <br> Fazer o bem está em nosso código!</small></p>
 		  			</div>
 		  		</div>
 		  	</div>
