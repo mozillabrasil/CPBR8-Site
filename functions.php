@@ -84,6 +84,7 @@
 
 		3  => ['name'		=> 'Guilherme Berghauser',
 			   'biography'	=> 'Geógrafo formado pela UNIOESTE - Universidade Estadual Do Oeste do Paraná, estudante de Sistema de Informação pela UTFPR – Universidade Tecnológica Federal do Paraná, voluntário da Mozilla (Mozillian), participa do projeto Firefox Student Ambassador, líder do Club Firefox de Pato Branco – PR e membro do grupo de usuários de Software Livre PatoLivre, Sócio-Fundador da QiLeverage empresa especializada no desenvolvimento de softwares educacionais, apaixonado por tecnologia, educação e software livre, foi professor durante sete anos e nos últimos quatro anos se dedica ao desenvolvimento web e mobile.',
+			   'photo'		=> 'guilherme.jpg',
 			   'links'		=> [
 
 			   		'envelope' 	=> 'mailto:tortoyoyo@gmail.com',
