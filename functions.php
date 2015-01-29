@@ -107,7 +107,16 @@
 			   ]],
 
 		5  => ['name'		=> 'Qaiq Alves',
-			   'biography'	=> ''],
+			   'biography'	=> 'Pagodeiro da galera, faz parte do Creative Team da Mozilla Brasil e contribui com divulgação e evangelismo e palestras sobre desenvolvimento de apps para Firefox OS. Designer por paixão e vocação, é especialista em experiência de usuário e faz também algumas coisas legais com CSS. Ama deixar o ambiente agradável e tem piadas de gostos duvidosos.',
+			   'links'		=> [
+
+			   		'envelope' 	=> 'mailto:qaiq@mozillabrasil.com.br',
+			   		'globe' 	=> 'http://qaiq.com.br',
+			   		'github'	=> 'http://github.com/qaiqalves',
+			   		'twitter'	=> 'http://twitter.com/QaiqAlves',
+			   		'facebook'	=> 'http://www.facebook.com/qaiqalves'
+
+			   ]],
 
 	];
 
