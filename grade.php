@@ -11,7 +11,7 @@
 			<div class="jumbotron text-center text-uppercase" style="background-image: url(assets/images/intro/hackathon2.jpg);">
 				<div class="caption">
 					<div class="container">
-						<h1 class="title">Nas Trilhas</h1>
+						<h1 class="title">Nossas Atividades</h1>
 						<p class="lead">Acompanhe a Comunidade Mozilla Brasil nos palcos da CPBR8</p>
 					</div>
 				</div>
