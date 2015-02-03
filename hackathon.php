@@ -19,23 +19,23 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-				<p>O foco da Hackathon será a criação de aplicativos para Firefox OS, o novo sistema operacional móvel desenvolvido pela Mozilla, totalmente baseado em HTML5.</p>
+				<p>O foco da Hackathon será a criação de aplicativos para Firefox OS, o novo sistema operacional móvel desenvolvido pela Mozilla, totalmente baseado em HTML5 e que foi lançado este ano aqui no Brasil.</p>
 				<p>É uma grande oportunidade para aprender mais sobre a nova plataforma que já é um sucesso entre os desenvolvedores dado a facilidade para criação e distribuição de apps.</p>
 
 				<h3>Regras</h3>
 				<p>Como toda Hackathon existem algumas regras que deverão ser seguidas pelos participantes da competição:</p>
-				<p>1) Você deverá escolher um dos temas para participar: Cidades Melhores, Educação ou Tema Livre.</p>
-				<p>2) Seu app deverá ser open source com uma licença apropriada (MPL, (A)GPL, BSD, MIT, etc).</p>
-				<p>3) Seu código fonte deve ser posto no GitHub até o <em>dia 7 às 15:00</em>.</p>
+				<p>1) Seu app deverá ser open source com uma licença apropriada (MPL, (A)GPL, BSD, MIT, etc).</p>
+				<p>2) Seu código fonte deve ser posto no GitHub até o <em>dia 7 às 15:00</em>.</p>
 				<p>Para garantir que o processo de julgamento ocorra de forma tranquila, coloque um arquivo README.txt no seu projeto com as informações do autor e a licença do app.</p>
 				<p>Após colocar o projeto no Github, envie um email para <a href="mailto:hackathon@mozillabrasil.org.br">hackathon@mozillabrasil.org.br</a> com o link para o seu repositório.</p>
 				<p>Qualquer duvida, entre em contato conosco no email <a href="mailto:hackathon@mozillabrasil.org.br">hackathon@mozillabrasil.org.br</a> ou na venha até a nossa bancada.</p>
 
 				<h2 id="inscri-o">Inscrição</h2>
-				<p>Preencha o <a href="http://goo.gl/forms/FDKTXzwgwc">formulário de inscrição</a>.</p>
+				<p>Preencha o <a href="http://goo.gl/forms/RKbXWbjs80">formulário de inscrição</a>.</p>
 
 				<h2 id="pr-mios">Prêmios</h2>
-				<p>Os vencedores de cada tema receberão um LG Fireweb.</p>
+				<p><b>Primeiro lugar:</b> 1 LG Fireweb</p>
+				<p><b>Segundo lugar:</b> 1 LG Fireweb</p>
 
 				<h2 id="material-de-apoio">Material de apoio</h2>
 				<p>Se você esta curioso para saber mais sobre o novo sistema ou sobre como desenvolver para o mesmo, cheque os links abaixo. Nesses links você vai encontrar todo o material necessário para começar a desenvolver seu app.</p>
@@ -81,7 +81,7 @@
 				<p>Você não precisa utilizar uma framework mas se quiser, essas funcionam com o Firefox OS. Se você quiser utilizar outra, basta ter certeza que ela funciona no Firefox. Frameworks tais como o Sencha Touch só funcionam em navegadores baseados em webKit.</p>
 
 					<h3 id="redes-sociais">Redes Sociais</h3>
-					<p>Utilize a hashtag <em>#MozillaNaCampus</em> e <em>#cpbr8</em> para chamar nossa atenção no Facebook e no Twitter.</p>
+					<p>Utilize a hashtag <em>#MozillaNaCPBR8</em> e <em>#cpbr8</em> para chamar nossa atenção no Facebook e no Twitter.</p>
 					<p>Nos vemos na hackathon!!!</p>
 
 				</div>
