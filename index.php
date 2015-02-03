@@ -111,10 +111,9 @@
 
 					uasort($cronograma,'time_sort');
 
-
 					foreach ($cronograma as $atividade) {
 						
-						if ($atividade['date'] == $hoje) {
+						if (($atividade['date'] == $hoje) && ($atividade['type'] == 5)) {
 
 							$actstart = strtotime($atividade['date']."-02-2015 ".$atividade['time'].":00");
 							$actend = strtotime($atividade['date']."-02-2015 ".$atividade['end-time'].":00");
