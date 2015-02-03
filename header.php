@@ -48,7 +48,7 @@
 
   </head>
   <body>
-  	<!-- navbar -->
+	<!-- navbar -->
   	<div class="navbar-wrapper">
   		<div class="container">
   			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">

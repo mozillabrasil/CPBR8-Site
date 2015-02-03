@@ -11,7 +11,7 @@
 			<div class="jumbotron text-center text-uppercase" style="background-image: url(assets/images/intro/hackathon2.jpg);">
 				<div class="caption">
 					<div class="container">
-						<h1 class="title">Nossas Atividades</h1>
+						<h1 class="title">Self Services</h1>
 						<p class="lead">Acompanhe a Comunidade Mozilla Brasil nos palcos da CPBR8</p>
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 
 						           	foreach ($cronograma as $atividade) {
 						           		
-						           		if (($atividade['date'] == $dia) && ($atividade['type'] != 5)){
+						           		if (($atividade['date'] == $dia) && ($atividade['type'] == 5)){
 
 						           			$actstart = strtotime($atividade['date']."-02-2015 ".$atividade['time'].":00");
 											$actend = strtotime($atividade['date']."-02-2015 ".$atividade['end-time'].":00");
