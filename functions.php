@@ -229,8 +229,6 @@
 		 "place"		=> "Palco Urano",
 		 "type"			=> 2,
 		 "campusero"	=> "http://campuse.ro/events/campus-party-brasil-2015/talk/programando-com-o-apache-cordova-para-diversas-plataformas-cpbr8"],
-<<<<<<< HEAD
-=======
 
     ["title"        => "Como o Firefox pode melhorar o seu porn",
      "description"  => "Nessa pequena oficina, você aprenderá como seu consumo de pornô na internet pode melhorar utilizando o Firefox! Apareça e aprenda vários truques!",
@@ -258,7 +256,6 @@
      "end-time" => "17:30",
      "place" => "Nossa mesa",
      "type" => 4],
->>>>>>> 0a0034ff60a5f65b2ecb871ff803b4c3f37ef7a2
 
 		["title" 		=> "Desenvolvedores Firefox OS: O encontro",
 		 "description"	=> "Nesta palestra apresentaremos uma visão geral para desenvolvedores da plataforma Firefox OS, começando pelos motivos que fundamentaram a criação do sistema e seu potencial transformador para países emergentes. Em seguida, aprofundaremos a conversa ao mostrar como criar aplicativos e monetizá-los. Mostraremos também detalhes técnicos como chamadas das WebAPIs, workflow de debug das apps e o processo completo de criação e distribuição de um app.",
@@ -366,13 +363,6 @@
 		 "type"			=> 1],
 		 
 		["title" 		=> "Oficina: Conheça o Webmaker",
-<<<<<<< HEAD
-		 "description"	=> "Em Breve...",
-		 "authors"		=> [0, 1, 8, 6, 7],
-		 "date"			=> 4,
-		 "time"			=> "19:30",
-		 "end-time"		=> "20:30",
-=======
      "description"  => "Gosta de ensinar? Gosta de aprender? Então venha conhecer o projeto da Mozilla que tem como objetivo ensinar a web para qualquer pessoa.",
 		 "authors"		=> [0, 1, 8, 6, 7],
 		 "date"			=> 4,
@@ -387,7 +377,6 @@
 		 "date"			=> 7,
 		 "time"			=> "13:00",
 		 "end-time"		=> "14:00",
->>>>>>> 0a0034ff60a5f65b2ecb871ff803b4c3f37ef7a2
 		 "place"		=> "Nossa Mesa",
 		 "type"			=> 1],
 		 
@@ -448,15 +437,9 @@
 		["title" 		=> "Oficina: Origamimaker",
 		 "description"	=> "Em Breve...",
 		 "authors"		=> [0, 1, 7],
-<<<<<<< HEAD
-		 "date"			=> 7,
-		 "time"			=> "11:00",
-		 "end-time"		=> "12:00",
-=======
 		 "date"			=> 6,
 		 "time"			=> "15:00",
 		 "end-time"		=> "16:00",
->>>>>>> 0a0034ff60a5f65b2ecb871ff803b4c3f37ef7a2
 		 "place"		=> "Nossa Mesa",
 		 "type"			=> 1],
 		 
