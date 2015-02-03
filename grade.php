@@ -23,6 +23,12 @@
 		<section class="page-content margin-top-bottom-60">
 			<div class="container">
 				<div class="row">
+
+					<div class="alert alert-info alert-dismissible fade in" role="alert">
+					      <button type="button" class="close" data-dismiss="alert" aria-label="Fechar"><span aria-hidden="true">×</span></button>
+					      Esta grade está sujeita a modificações
+					</div>
+
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 						<?php /* START */ ?>
