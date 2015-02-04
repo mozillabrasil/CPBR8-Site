@@ -23,19 +23,33 @@
 				<table class="table table-striped">
 			      <thead>
 			        <tr>
-			          <th>App</th>
-			          <th>Descrição</th>
-			          <th>Prioridade</th>
+			          <th><a href="#">App</a></th>
+			          <th><a href="#">Descrição</a></th>
+			          <th><a href="#">Prioridade</a></th>
 			        </tr>
 			      </thead>
 			      <tbody>
 
 			      	<?php foreach ($aplicativos as $app) {
 			      		
+			      		if($app['type'] == "p1"){
+
+			      			$priority = '<span class="label label-danger">P1</span>';
+
+			      		} else if($app['type'] == "p2"){
+
+			      			$priority = '<span class="label label-warning">P2</span>';
+
+			      		} else if($app['type'] == "p3"){
+
+			      			$priority = '<span class="label label-success">P3</span>';
+
+			      		}
+
 			      		echo '<tr>
 			          		  <th scope="row">'.$app['title'].'</th>
 			          		  <td>'.$app['description'].'</td>
-			          		  <td>'.$app['type'].'</td>
+			          		  <td>'.$priority.'</td>
 			        		  </tr>';
 
 			      	} ?>
@@ -49,19 +63,31 @@
 				<table class="table table-striped">
 			      <thead>
 			        <tr>
-			          <th>App</th>
-			          <th>Descrição</th>
-			          <th>Prioridade</th>
+			          <th><a href="#">App</a></th>
+			          <th><a href="#">Prioridade</a></th>
 			          <th></th>
 			        </tr>
 			      </thead>
 			      <tbody>
 			      	<?php foreach ($games as $app) {
+
+			      		if($app['type'] == "p1"){
+
+			      			$priority = '<span class="label label-danger">P1</span>';
+
+			      		} else if($app['type'] == "p2"){
+
+			      			$priority = '<span class="label label-warning">P2</span>';
+
+			      		} else if($app['type'] == "p3"){
+
+			      			$priority = '<span class="label label-success">P3</span>';
+
+			      		}
 			      		
 			      		echo '<tr>
 			          		  <th scope="row">'.$app['title'].'</th>
-			          		  <td>'.$app['description'].'</td>
-			          		  <td>'.$app['type'].'</td>
+			          		  <td>'.$priority.'</td>
 			        		  </tr>';
 
 			      	} ?>

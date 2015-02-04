@@ -92,6 +92,25 @@
 
     <?php } ?>
 
+    <?php
+
+      if(array_pop(explode("/", $_SERVER['REQUEST_URI'])) == "apps"){
+
+        echo '<script src="assets/js/jquery.tablesorter.min.js"></script>
+        <script>
+
+        $(document).ready(function() { 
+            $(".table").tablesorter({ 
+                sortList: [[0,0],[2,0]] 
+            }); 
+        }); 
+
+        </script>';
+
+}
+
+    ?>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.2.3/jquery.nanogallery.min.js"></script>
 
     <script src="assets/js/main.js"></script>

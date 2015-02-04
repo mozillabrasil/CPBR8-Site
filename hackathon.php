@@ -19,6 +19,8 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
+				<div class="well" style="text-align:center;"><p>Está procurando a lista de aplicativos que ainda faltam para o Firefox OS e você pode desenvolver? confira ela <a href="apps">aqui</a>.</p></div>
+
 				<p>O foco da Hackathon será a criação de aplicativos para Firefox OS, o novo sistema operacional móvel desenvolvido pela Mozilla, totalmente baseado em HTML5 e que foi lançado este ano aqui no Brasil.</p>
 				<p>É uma grande oportunidade para aprender mais sobre a nova plataforma que já é um sucesso entre os desenvolvedores dado a facilidade para criação e distribuição de apps.</p>
 
