@@ -110,7 +110,7 @@
 
 						           	foreach ($cronograma as $atividade) {
 						           		
-						           		if ($atividade['date'] == $dia){
+						           		if (($atividade['date'] == $dia) && ($atividade['type'] != 5)){
 
 						           			$actstart = strtotime($atividade['date']."-02-2015 ".$atividade['time'].":00");
 											$actend = strtotime($atividade['date']."-02-2015 ".$atividade['end-time'].":00");
