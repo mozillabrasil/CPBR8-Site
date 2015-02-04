@@ -321,7 +321,7 @@
 		 "description"	=> "Roda de conversas para que as pessoas tragam suas frustrações e problemas no uso cotidiano do Firefox, desabafem e compartilhem soluções para assim tornarmos o Firefox um excelente navegador!",
 		 "authors"		=> [2, 1, 0, 6, 7],
 		 "date"			=> 5,
-		 "time"			=> "13:30",
+		 "time"			=> "14:30",
 		 "end-time"		=> "14:00",
 		 "place"		=> "Nossa Mesa",
 		 "type"			=> 4],
