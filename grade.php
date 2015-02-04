@@ -6,6 +6,14 @@
 
 ?>
 
+<style>
+
+.time2:before {
+    display:none;
+}
+
+</style>
+
 		<!-- header -->
 		<header class="site-head">
 			<div class="jumbotron text-center text-uppercase" style="background-image: url(assets/images/intro/hackathon2.jpg);">
@@ -22,16 +30,52 @@
 		<!-- page-content -->
 		<section class="page-content margin-top-bottom-60">
 			<div class="container">
-				<div class="row">
 
+				<div class="row">
 					<div class="alert alert-info alert-dismissible fade in" role="alert">
 					      <button type="button" class="close" data-dismiss="alert" aria-label="Fechar"><span aria-hidden="true">×</span></button>
 					      Esta grade está sujeita a modificações
 					</div>
+					<div class="page-header">
+						<h1>Atividades Self-Services</h1>
+
+						<ul class="timeline time2">
+
+							<?php 
+
+								foreach ($cronograma as $atividade) {
+									if ($atividade['type'] == 5){
+
+										echo '<li>
+	                                		  <div class="timeline-item">
+	                                    	  <h3 class="timeline-header"><a>'.$atividade['title'].'</a></h3>
+	                                    	  <div class="timeline-body">
+	                                          '.$atividade['description'].'
+	                                    	  </div>
+	                                		  </div>
+	                            			  </li>';
+
+                            		}
+
+								}
+
+							?>
+
+
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+				<div class="row">
+
 
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 						<?php /* START */ ?>
+
 
 
 						<ul class="timeline">
@@ -62,9 +106,11 @@
 
 						            $horario = null;
 
+						            $selfservices = [];
+
 						           	foreach ($cronograma as $atividade) {
 						           		
-						           		if (($atividade['date'] == $dia) && ($atividade['type'] != 5)){
+						           		if ($atividade['date'] == $dia){
 
 						           			$actstart = strtotime($atividade['date']."-02-2015 ".$atividade['time'].":00");
 											$actend = strtotime($atividade['date']."-02-2015 ".$atividade['end-time'].":00");
