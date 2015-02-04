@@ -74,7 +74,7 @@
 
 			<div class="col-sm-6 content">
 
-				<div class="page-header" style="text-align:center;"><h1>#mozillanacpbr8</h1></div>
+				<div class="page-header" style="text-align:center;"><h1>#MozillaNaCampus</h1></div>
 
 				<p>A Comunidade Mozilla Brasil quer interagir com você durante a CPBR8 e 
 				para isso preparamos diversas ações superdivertidas em nossos perfis nas 

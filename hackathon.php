@@ -81,7 +81,7 @@
 				<p>Você não precisa utilizar uma framework mas se quiser, essas funcionam com o Firefox OS. Se você quiser utilizar outra, basta ter certeza que ela funciona no Firefox. Frameworks tais como o Sencha Touch só funcionam em navegadores baseados em webKit.</p>
 
 					<h3 id="redes-sociais">Redes Sociais</h3>
-					<p>Utilize a hashtag <em>#MozillaNaCPBR8</em> e <em>#cpbr8</em> para chamar nossa atenção no Facebook e no Twitter.</p>
+					<p>Utilize a hashtag <em>#MozillaNaCampus</em> e <em>#cpbr8</em> para chamar nossa atenção no Facebook e no Twitter.</p>
 					<p>Nos vemos na hackathon!!!</p>
 
 				</div>
