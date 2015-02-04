@@ -327,7 +327,7 @@
 		 "type"			=> 4],
 		 
 		["title" 		=> "Oficina de localização de artigos do MDN",
-		 "description"	=> "Desenvolvedores web que saibam bem português e inglês e que queiram contribuir com a Mozilla ou MDN",
+		 "description"	=> "Você é desenvolvedor web? Sabe inglês? Gostaria de contribuir para a melhor documentação de desenvolvimento web que existe? Então venha participar da maratona de tradução e localização do MDN, a melhor documentação para desenvolvedores web da internet inteira!",
 		 "authors"		=> [0, 7, 1, 6],
 		 "date"			=> 4,
 		 "time"			=> "14:30",
