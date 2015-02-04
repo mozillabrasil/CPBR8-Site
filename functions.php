@@ -230,15 +230,6 @@
 		 "type"			=> 2,
 		 "campusero"	=> "http://campuse.ro/events/campus-party-brasil-2015/talk/programando-com-o-apache-cordova-para-diversas-plataformas-cpbr8"],
 
-    ["title"        => "Como o Firefox pode melhorar o seu porn",
-     "description"  => "Nessa pequena oficina, você aprenderá como seu consumo de pornô na internet pode melhorar utilizando o Firefox! Apareça e aprenda vários truques!",
-     "authors"      => 0,
-     "date"         => 3,
-     "time"         => "23:00",
-     "end-time"     => "00:00",
-     "place"        => "Nossa mesa",
-     "type"         => 1],
-
     ["title"        => "WoMozCoffee",
      "description"  => "Durante uma hora vamos reunir algumas meninas  interessadas em aprender sobre os projetos da Mozilla em especial sobre o  WoMoz para conversar, tomar um cafezinho e comer uns biscoitinhos.",
      "authors" => 1,
