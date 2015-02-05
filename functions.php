@@ -384,8 +384,8 @@
 		 "description"	=> "Aprenda a produzir cartazes super divertidos para salvar animais perdidos ou abandonados com a ferramenta Thimble. Você não precisa ter nenhum conhecimento em ferramentas de edição gráfica ou desenvolvimento para a web.",
 		 "authors"		=> [0, 1, 6, 7],
 		 "date"			=> 5,
-		 "time"			=> "18:00",
-		 "end-time"		=> "19:00",
+		 "time"			=> "18:30",
+		 "end-time"		=> "19:30",
 		 "place"		=> "Nossa Mesa",
 		 "type"			=> 1],
 		 
