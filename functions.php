@@ -322,7 +322,7 @@
 		 "authors"		=> [2, 1, 0, 6, 7],
 		 "date"			=> 5,
 		 "time"			=> "14:30",
-		 "end-time"		=> "14:00",
+		 "end-time"		=> "15:00",
 		 "place"		=> "Nossa Mesa",
 		 "type"			=> 4],
 		 
