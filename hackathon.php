@@ -34,6 +34,7 @@
 
 				<h2 id="inscri-o">Inscrição</h2>
 				<p>Preencha o <a href="http://goo.gl/forms/RKbXWbjs80">formulário de inscrição</a>.</p>
+				<p>O prazo limite para a inscrição é até o dia <b>7/FEV</b> até as <b>13:00</b> e o envio do seu app até as <b>15:00</b></p>
 
 				<h2 id="pr-mios">Prêmios</h2>
 				<p><b>Primeiro lugar:</b> 1 LG Fireweb</p>

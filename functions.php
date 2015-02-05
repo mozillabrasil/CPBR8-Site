@@ -462,7 +462,7 @@
 		 "type"			=> 5],
 
 		["title" 		=> "Criação de apps de utilidade pública",
-		 "description"	=> "Do dia 04 até o dia 06 de fevereiro estaremos em nossa bancada durante 2 horas, desenvolvendo aplicativos de utilidade pública para a Marketplace.",
+		 "description"	=> 'Do dia 04 até o dia 06 de fevereiro estaremos em nossa bancada durante 2 horas, desenvolvendo aplicativos de utilidade pública para a Marketplace, você pode conferir a lista de apps que precisam ser desenvolvidos para o Firefox OS <a href="apps">aqui</a>.',
 		 "authors"		=> [0, 1, 2, 7],
 		 "date"			=> 7,
 		 "time"			=> "16:00",
