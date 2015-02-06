@@ -294,7 +294,7 @@
 		 "date"			=> 7,
 		 "time"			=> "00:00",
 		 "end-time"		=> "01:00",
-		 "place"		=> "Palco Urano",
+		 "place"		=> "Palco Saturno",
 		 "type"			=> 2,
 		 "campusero"	=> "http://campuse.ro/events/campus-party-brasil-2015/talk/women-mozilla-womoz-cpbr8"],
 
